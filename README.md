@@ -2,9 +2,10 @@
 Simple Node script to pull down module READMEs using the GitHub API.
 Primary use case is for use with Jekyll to include docs from external repositories.
 
-## Installation
+## Install dependencies
 
 ```
+cd get-readmes
 npm install
 ```
 
