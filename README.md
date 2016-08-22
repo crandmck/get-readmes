@@ -9,6 +9,8 @@ cd get-readmes
 npm install
 ```
 
+The only dependency is the Node GitHub API; see [http://mikedeboer.github.io/node-github](http://mikedeboer.github.io/node-github). 
+
 ## Use
 
 1. Create `repos.json` containing list of repos for which you want to pull down READMEs.  A sample is provided.
