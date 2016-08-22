@@ -9,7 +9,7 @@ cd get-readmes
 npm install
 ```
 
-The only dependency is the Node GitHub API; see [http://mikedeboer.github.io/node-github](http://mikedeboer.github.io/node-github). 
+The only dependency is the Node GitHub API; see [http://mikedeboer.github.io/node-github](http://mikedeboer.github.io/node-github).
 
 ## Use
 
@@ -23,3 +23,7 @@ node .
 
 **NOTE**: This script accesses GitHub APIs without authorization.  Since it uses only
 "read" operations, no authorization is required; however, for unauthenticated requests, GitHub API rate limit is 60 requests per hour. For more information, see [https://developer.github.com/v3/#rate-limiting](https://developer.github.com/v3/#rate-limiting).
+
+## TODO
+
+Add a way to use OAuth2 tokens to avoid the rate limit.  See https://developer.github.com/v3/oauth/
