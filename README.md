@@ -23,8 +23,8 @@ node get-readmes [--out=<path-to-output-dir>] [--repos=<path-to-JSON-file>][--de
 
 Options:
 
-|--------|---------|----------|
 | Option | Description | Default value |
+|--------|---------|----------|
 |`--out` | Path to directory in which to save README.md files| `./readmes` |
 | `--repos`| Path to the JSON file containing list of repos.| `./repos.json` |
 | `--debug`| If true, print debug messages | false |
